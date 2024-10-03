@@ -110,7 +110,7 @@ class GUIManager:
 
         # Info toggle heuristics table
         self.heuristics_table_info_label = pygame_gui.elements.UILabel(
-            relative_rect=pygame.Rect((5, 50), (300, 30)),
+            relative_rect=pygame.Rect((5, 50), (320, 40)),
             text="Click 'H' key to toggle heuristics table",
             manager=self.manager,
             object_id=ObjectID(class_id=None, object_id='#normal-label')
